@@ -1,0 +1,218 @@
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes switchNamesFirst {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes switchNamesSecond {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes wave1 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 118px;
+  }
+}
+
+@keyframes arrownext {
+  0% {
+    position: absolute;
+    margin-left: -10px;
+    opacity: 0;
+  }
+  10% {
+    position: absolute;
+    margin-left: 0px;
+    opacity: 1;
+  }
+
+  80% {
+    position: absolute;
+    margin-left: 70px;
+    opacity: 1;
+  }
+  100% {
+    position: absolute;
+    margin-left: 80px;
+    opacity: 0;
+  }
+}
+
+@keyframes dropLeft {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes dropRight {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes fillingvray {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes fillingcad {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes fillingPS {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes fillingrevit {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes fillingcorel {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes fillingillus {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes percentageBar {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes snake {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  25% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  25.00001% {
+    transform-origin: right;
+  }
+  50%,
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}

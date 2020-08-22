@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/8c86c20e06.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <title>Clever Designs</title>
+  </head>
+
+  <body>
+    <div class="bgImage"></div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <header class="header1">
+      <div class="content">
+        <div class="logo">
+          <a href="./index.html"><img src="./images/Logo.png" alt="" /></a>
+        </div>
+        <div class="dropdown">
+          <nav>
+            <li>
+              <a href="#homePage" class="Nav-Home">Home <span></span></a>
+            </li>
+            <li>
+              <a href="#aboutPage" class="Nav-About">About <span></span></a>
+            </li>
+            <li>
+              <a href="#skillsPage" class="Nav-Skills">Skills <span></span></a>
+            </li>
+            <li>
+              <a href="#projects" class="Nav-Projects"
+                >Projects <span></span
+              ></a>
+            </li>
+            <li>
+              <a href="#contacts" class="Nav-Contacts">Contact <span></span></a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="homePage" id="homePage">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 1.jpg" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 2.jpg" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 3.jpg" />
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 4.jpg" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 5.jpg" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 6.jpg" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 7.jpg" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 8.jpg" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 9.jpg" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/RollUp - 10.jpg" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <script>
+          var slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+              slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 7000); // Change image every 2 seconds
+          }
+        </script>
+      </div>
+
+      <div class="contentHome">
+        <div class="one">
+          <span>
+            Hello
+          </span>
+          <h1>
+            I'm
+            <span
+              >Harsh <br />
+              Vashi</span
+            >
+          </h1>
+          <h2>A freelance web designer</h2>
+          <a href="#">Hire Me</a>
+        </div>
+        <div class="two">
+          <h1>I'm A <span>web designer</span> from Mumbai</h1>
+          <a href="#">Hire Me</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="aboutPage" id="aboutPage">
+      <div class="leftAbout">
+        <section class="blueBlock"></section>
+        <img src="./images/pc.jpg" alt="Personal Photo" class="pic-one" />
+        <img src="./images/tablet.jpg" alt="Personal Photo" class="pic-two" />
+        <img
+          src="./images/phone-p.jpg"
+          alt="Personal Photo"
+          class="pic-three"
+        />
+      </div>
+      <div class="rightAbout">
+        <span>WELCOME</span>
+        <h2>About Me</h2>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+        <div class="aboutSkills">
+          <div class="one">
+            <span><img src="./images/search (3).png" alt="" /></span>
+            <h3>3D Artist</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+
+          <div class="two">
+            <span><img src="./images/search (3).png" alt="" /></span>
+            <h3>Graphic Designer</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+        <section class="projectCount">
+          <span class="number">200</span>
+          <span>FINISHED PROJECTS </span>
+        </section>
+      </div>
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="newsection">
+      <div class="skillsPage" id="skillsPage">
+        <span>SKILLS</span>
+        <h2>My Skills</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia
+        </p>
+        <section class="skillsSet">
+          <div class="photoshop bar">
+            <h3>Photoshop</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+          <div class="html5 bar">
+            <h3>HTML5</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+          <div class="wordpress bar">
+            <h3>WordPress</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+          <div class="jquery bar">
+            <h3>jQuery</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+          <div class="css3 bar">
+            <h3>CSS3</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+          <div class="seo bar">
+            <h3>SEO</h3>
+            <div>
+              <span class="fullBar"><span class="percentage"></span></span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- 
+      *
+      *
+      *
+      *
+      *
+      *
+      *
+      *
+      -->
+
+      <div class="whatIDo">
+        <span>WHAT I DO</span>
+        <h2>Strategy, design and a bit of magic</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia
+        </p>
+        <section class="gridAbout">
+          <div class="one">
+            <span><img src="./images/Skills - 1.png" alt="" /></span>
+            <h5>Explore</h5>
+            <h4>Design Sprints</h4>
+            <h4>Product Strategy</h4>
+            <h4>UX Strategy</h4>
+          </div>
+          <div class="two">
+            <span><img src="./images/Skills - 2.png" alt="" /></span>
+            <h5>CREATE</h5>
+            <h4>Information</h4>
+            <h4>UX/UI Design</h4>
+            <h4>Branding</h4>
+          </div>
+          <div class="three">
+            <span><img src="./images/Skills - 3.png" alt="" /></span>
+            <h5>LEARN</h5>
+            <h4>Prototyping</h4>
+            <h4>User Testing</h4>
+            <h4>UI Testing</h4>
+          </div>
+        </section>
+      </div>
+
+      <!-- 
+      *
+      *
+      *
+      *
+      *
+      *
+      *
+      *
+      -->
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="freelancing">
+      <main>
+        <h2>I'm <span>Available</span> For Freelancing</h2>
+        <a href="">Hire Me</a>
+      </main>
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="projects" id="projects">
+      <span>ACCOMPLISHMENTS</span>
+      <h2>Our Projects</h2>
+      <p>
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </p>
+      <main>
+        <a href="blog_one.html" class="one"
+          ><img src="./images/Project - 1.jpg" alt="" />
+          <h3>Branding & Illustration Design</h3>
+          <span>Web Design</span>
+        </a>
+        <a href="blog_two.html" class="two"
+          ><img src="./images/Project - 2.jpg" alt="" />
+          <h3>Branding & Illustration Design</h3>
+          <span>Web Design</span>
+        </a>
+        <a href="blog_three.html" class="three"
+          ><img src="./images/Project - 3.jpg" alt="" />
+          <h3>Branding & Illustration Design</h3>
+          <span>Web Design</span>
+        </a>
+        <a href="blog_four.html" class="four"
+          ><img src="./images/Project - 4.jpg" alt="" />
+          <h3>Branding & Illustration Design</h3>
+          <span>Web Design</span>
+        </a>
+        <a href="blog_five.html" class="five"
+          ><img src="./images/Project - 5.jpg" alt="" />
+          <h3>Branding & Illustration Design</h3>
+          <span>Web Design</span>
+        </a>
+      </main>
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <div class="contacts" id="contacts">
+      <span>CONTACT</span>
+      <h2>Contact Me</h2>
+      <p>
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </p>
+      <main>
+        <div class="one">
+          <img src="./images/Main.jpg" alt="" />
+        </div>
+        <div class="two">
+          <hr />
+          <h2>Name :</h2>
+          <p>Harsh Vashi</p>
+          <hr />
+          <h2>Address :</h2>
+          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <hr />
+          <h2>Instagram :</h2>
+          <p>hv----------</p>
+          <hr />
+          <h2>Phone :</h2>
+          <p>123456879</p>
+          <hr />
+          <h2>Phone :</h2>
+          <p>123456879</p>
+          <hr />
+        </div>
+      </main>
+    </div>
+
+    <!-- 
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    -->
+
+    <footer>
+      <div class="one grido">
+        <h2>Lets talk about</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="social">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="two grido">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="#homePage">Home</a></li>
+          <li><a href="#aboutPage">About</a></li>
+          <li><a href="#skillsPage">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+      <div class="three grido">
+        <h2>Services</h2>
+        <!-- goes to projects link -->
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Design</a></li>
+        </ul>
+      </div>
+      <div class="four grido">
+        <h2>Have a Questions?</h2>
+        <ul>
+          <li class="address">
+            <a href="#"
+              >203 Fake St. Mountain View, San Francisco, California, USA</a
+            >
+          </li>
+          <li class="phone-no"><a href="#">+2 392 3929 210 </a></li>
+          <li class="whatsapp"><a href="#">9876+645123</a></li>
+          <li class="mail"><a href="#">info@yourdomain.com</a></li>
+        </ul>
+      </div>
+      <section>
+        <p>
+          Copyright ©2020 All rights reserved | This template is made with
+          <i class="fas fa-heart"></i> by Vrushit
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
